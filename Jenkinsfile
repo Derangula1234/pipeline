@@ -11,6 +11,11 @@ pipeline{
 			echo "This is my second stage"
 			}
 		}
+		stage("End"){
+			steps{
+				echo "Thanks bhagya"
+			}
+		}
 	 }
 }
 
